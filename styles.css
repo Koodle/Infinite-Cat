@@ -1,0 +1,95 @@
+@font-face {
+    font-family: shadowCat;
+    src: url(fonts/ShadowCat-OVMzP.otf);
+}
+
+@font-face {
+    font-family: strayCat;
+    src: url(fonts/LunasHandwriting-4G8B.ttf);
+}
+
+body {
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #F5F5F5;
+}
+
+/* Title */
+h1 {
+    font-family: shadowCat;
+    font-weight: bold;
+    letter-spacing: 28px;
+    font-size: 10rem;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+span {
+    font-family: strayCat;
+    font-weight: lighter;
+    color: orange;
+}
+
+
+
+/* mainbody of photos */
+.imgContainer {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+/* Small size */
+@media only screen and (max-width: 805px) {
+
+    h1 {
+        font-size: 4rem;
+        letter-spacing: 10px;
+    }
+
+    .card-columns {
+
+        column-count: 1;
+
+    }
+}
+
+/* Medium size */
+@media only screen and (max-width: 1228px) and (min-width: 805px) {
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .card-columns {
+
+        column-count: 2;
+
+    }
+
+}
+
+/* Large size */
+@media only screen and (min-width: 1776px) {
+
+    h1 {
+        font-size: 14rem;
+
+    }
+
+    .card-columns {
+
+        column-count: 4;
+
+    }
+
+
+}
