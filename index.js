@@ -1,6 +1,5 @@
-//TODO hide the client ID Before you post on github.
 
-//PROBLEMS:
+//Problems & Solutions:
 // 1) problem is that the scroll function is triggered multiple times
 //    before the fetch(apiURL) can be completed so to fix this i added a bolean called active 
 
@@ -16,7 +15,7 @@ var active = false; //Boolean to stop the scoll event listener from calling getD
 // Unsplash API parameters
 const query = "cats";
 const per_page = "10";
-const clientID = "Bz7cwx1M6OBq4hAosm5g1j-6DbSrVSzjGukEmLtbmss";
+const clientID = "";
 var pageNumber = 1;  
 
 
