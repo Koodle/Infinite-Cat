@@ -3,6 +3,4 @@ Web page that will continue to load and display cat images as you scroll down th
 
 Used the unsplash API to get images in the JSON format.
 
-<a href"https://imgflip.com/gif/4o1hta"><img src="https://imgflip.com/embed/4o1hta"/></a>
-
-<div style="width:260px;max-width:100%;"><div style="height:0;padding-bottom:221.15%;position:relative;"><iframe width="260" height="575" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/4o1hta"></iframe></div><p><a href="https://imgflip.com/gif/4o1hta">via Imgflip</a></p></div>
+![] (4o1hta.gif)
